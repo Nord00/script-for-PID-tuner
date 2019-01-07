@@ -1,0 +1,5 @@
+<launch>
+  <node name="position_control" pkg="pid_calc" type="position_control.py" output="screen" />
+  <node name="action_controller" pkg="pid_calc" type="action_controller.py" output="screen" />
+  <node name="goto_position_server" pkg="pid_calc" type="goto_position_server.py" output="screen" />
+</launch>
